@@ -66,6 +66,7 @@
 }
 figcaption {
   position: relative;
+  font-weight: bold;
 }
 figure {
   text-align: center;
@@ -82,4 +83,29 @@ figure {
 .clickable3 {
      cursor: pointer;
      color: #0088cc;
+}
+.design-show h3 {
+  font-weight: bold;
+}.development-show h3 {
+  font-weight: bold;
+}
+.productManagement-show h3 {
+  font-weight: bold;
+}
+.intro h1 {
+  font-weight: bold;
+}.intro p {
+  font-weight: bold;
+}
+.aboutUs h2 {
+  font-weight: bold;
+}
+.services h2 {
+  font-weight: bold;
+}
+.whatWeDo h2 {
+  font-weight: bold;
+}
+.contactUs h2 {
+  font-weight: bold;
 }
