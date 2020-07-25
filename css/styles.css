@@ -5,7 +5,7 @@
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   color: white;
-  
+
 
 }
 .services {
@@ -39,4 +39,7 @@
 .aboutUs {
   margin-top: 10%;
   transform: translateY(-10%);
+}
+.socialMediaIcons {
+  text-align: center;
 }
