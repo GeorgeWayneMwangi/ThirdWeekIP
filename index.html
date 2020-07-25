@@ -23,6 +23,7 @@
         </div>
       </div>
     </div>
+    <br>
     <div class="container-fluid aboutUs">
       <div class="row aboutUs">
         <div class="col-md-12">
@@ -31,6 +32,7 @@
         </div>
       </div>
     </div>
+    <br>
     <div class="container-fluid services">
       <div class="row services">
         <div class="col-md-12">
@@ -42,51 +44,75 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid whatWeDo">
+    <br>
+    <div class="container whatWeDo">
       <h2 class="text-center">WHAT WE DO</h2>
+      <br>
       <div class="row ">
           <div class="col-md-4" id="design">
-            <img src="images/design_icon.png" alt="This is an icon of the design section">
+            <div class="design-hide">
+            <img src="images/design_icon.png" alt="This is an icon of the design section" class="clickable">
+            </div>
+            <div class="design-show">
+              <h3 class="text-center">DESIGN</h3>
+            <p class=text-center>Our design practice offers a full range of services<br> including brand strategy, interaction and visual design<br> and user experience.<br><br>Throughout your project,our designers create and <br> implement visual design and workflows,solicit user<br>feedback and work with you to make sure what gets built<br>is what is needed.</p>
+            </div>
           </div>
           <div class="col-md-4" id="development">
-            <img src="images/dev_icon.png" alt="This is an icon of the development section">
+            <div class="development-hide">
+            <img src="images/dev_icon.png" alt="This is an icon of the development section" class="clickable">
           </div>
+          <div class="development-show">
+            <h3 class=text-center>DEVELOPMENT</h3>
+            <p class=text-center>All engineers are fluent in the latest enterprise,mobile<br>and web development technologies.<br><br>They collaborate with your team to write, and improve<br>code on a daily basis,using proven practices such as</br>test-driven development and pair programming.</p>
+            </div>
+            </div>
           <div class="col-md-4" id="productManagement">
-            <img src="images/product_icon.png" alt="This is an icon of the product management section">
+            <div class="productManagement-hide">
+            <img src="images/product_icon.png" alt="This is an icon of the product management section" class="clickable">
           </div>
-        </div>
+          <div class="productManagement-show">
+            <h3
+        <h3 class="text-center">PRODUCT MANAGEMENT</h3>
+        <p class="text-center">Planning and development is iterative.Because we are<br>constantly coding anf testing,the products we build are<br>always ready to go live<br><br>The iterative process allows for changes as business<br>requirements evolve.<br>
       </div>
+      </div>
+      <br>
       <div class="container portfolio">
         <h2 class="text-center">PORTFOLIO</h2>
+        <br>
         <div class="row first">
-          <div class="col-md-3">
+          <div class="column">
             <img src="images/work4.jpg" alt="This is image 1 of row 1 of the portfolio section">
           </div>
-          <div class="col-md-3">
+          <div class="column">
             <img src="images/work3.jpg" alt="This is image 2 of row 1 of the portfolio section">
           </div>
-          <div class="col-md-3">
+          <div class="column">
             <img src="images/work2.jpg" alt="This is image 3 of row 1 of the portfolio section">
           </div>
-          <div class="col-md-3">
+          <div class="column">
             <img src="images/work1.jpg" alt="This is image 4 of row 1 of the portfolio section">
-          </div>
         </div>
-          <div class="row second">
-            <div class="col-md-3">
+        </div>
+        <br>
+          <div class="row seconds">
+            <div class="column">
               <img src="images/work5.jpg" alt="This is image 1 of row 2 of the portfolio section">
             </div>
-            <div class="col-md-3">
+            <div class="column">
               <img src="images/work6.jpg" alt="This is image 2 of row 2 of the portfolio section">
             </div>
-            <div class="col-md-3">
+            <div class="column">
               <img src="images/work7.jpg" alt="This is image 3 of row 2 of the portfolio section">
             </div>
-            <div class="col-md-3">
+            <div class="column">
               <img src="images/work8.jpg" alt="This is image 4 of row 2 of the portfolio section">
             </div>
           </div>
+          <br>
         </div>
+        <br>
         <div class="container-fluid contactUs">
           <h2 class="text-center">CONTACT US</h2>
           <form>
@@ -105,7 +131,7 @@
             </div>
             <div class="col-md-12">
               <label for="YourMessage">Your message</label>
-              <textarea id="YourMessage" placeholder="Your message" name="YourMessage">
+              <textarea id="YourMessage" placeholder="Your message" name="YourMessage" rows="5" cols="20">
               </textarea>
             </div>
           </div>
