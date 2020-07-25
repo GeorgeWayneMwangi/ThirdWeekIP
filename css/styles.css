@@ -169,3 +169,12 @@ figure {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.button  {
+margin-left: 50%;
+transform: translateX(-50%);
+color: white;
+background: #e91d43;
+padding: 10px 20px;
+font-size: 2em;
+font-weight: 600;
+}
