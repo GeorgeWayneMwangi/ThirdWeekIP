@@ -40,11 +40,6 @@
   margin-top: 10%;
   transform: translateY(-10%);
 }
-.clickable {
-     cursor: pointer;
-     color: #0088cc;
-   }
-
 .socialMediaIcons {
   text-align: center;
 }
@@ -68,4 +63,23 @@
 }
 .productManagement-show {
   display: none;
+}
+figcaption {
+  position: relative;
+}
+figure {
+  text-align: center;
+  float: left;
+}
+.clickable1 {
+     cursor: pointer;
+     color: #0088cc;
+}
+.clickable2 {
+     cursor: pointer;
+     color: #0088cc;
+}
+.clickable3 {
+     cursor: pointer;
+     color: #0088cc;
 }
