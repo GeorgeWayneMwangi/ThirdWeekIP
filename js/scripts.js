@@ -18,15 +18,17 @@ $(document).ready(function () {
         $("#"+ work).hover(function (){
           $(this).width(1.25*$(this).width());
           $(this).height(1.25*$(this).height());
+          $(this).css("opacity","0.3");
         },
         function () {
           $(this).width(0.8*$(this).width());
           $(this).height(0.8*$(this).height());
+          $(this).css("opacity", "1");
           event.preventDefault();
+
         });
         });
-      }
-      );
+      });
   $("form#contacts").submit(function(event) {
 
     var names= $("#name").val();
