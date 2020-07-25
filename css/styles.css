@@ -4,12 +4,15 @@
   background-size: cover;
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
+  color: white;
 }
 .services {
+  background: url(../images/s_image.jpg);
   background-position: top;
   background-size: cover;
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
+  color: white;
 }
 .contactUs {
   background: url(../images/c_image.jpg);
@@ -17,4 +20,14 @@
   background-size: cover;
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
+  color: white;
+}
+.logo1{
+  text-align: center;
+
+}
+
+.logo2{
+  text-align: center;
+
 }
