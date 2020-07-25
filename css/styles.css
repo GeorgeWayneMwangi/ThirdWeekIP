@@ -61,10 +61,14 @@
   text-align: center;
 
 }
+* {
+  border-sizing: border-box;
+}
 .portfolio .column {
   float: left;
   width: 25%;
   padding: 5px;
+  margin: auto;
 }
 
 
