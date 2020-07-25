@@ -132,19 +132,19 @@
         <br>
         <div class="container-fluid contactUs">
           <h2 class="text-center">CONTACT US</h2>
-          <form>
+          <form id="contacts">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input id="name" placeholder="Name" class="form-control" type="text">
+                <input id="name" placeholder="Name" class="form-control" type="text" required>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input id="email" placeholder="Email" class="form-control" type="email">
+                <input id="email" placeholder="Email" class="form-control" type="email" required>
               </div>
             </div>
-              <textarea id="YourMessage" placeholder="Your message" name="YourMessage" rows="15" cols="100">
+              <textarea id="YourMessage" placeholder="Your message" name="YourMessage" rows="15" cols="100" required>
               </textarea>
               <button  type="submit" class="button " onclick="output()">Submit Message</button>
 
