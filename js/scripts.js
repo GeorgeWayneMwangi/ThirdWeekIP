@@ -4,7 +4,7 @@ $(document).ready(function () {
     var names= $("#name").val();
     var email= $("#email").val();
     var message = $("#YourMessage").val();
-    alert("Dear " +names+ ",email address "+ email+ ",your message has been received. Thank you for contacting us");
+    alert("Dear " +names+",your message has been received. Thank you for reaching out to us");
     event.preventDefault();
 
   $(".clickable1").click(function() {
