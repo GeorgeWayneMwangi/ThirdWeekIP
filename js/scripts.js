@@ -34,8 +34,9 @@ $(document).ready(function () {
     var names= $("#name").val();
     var email= $("#mce-email").val();
     var message = $("#YourMessage").val();
-    alert("Dear " +names+",your message has been received. Thank you for reaching out to us");
+    alert("Dear " +names+",your message has been received. Thank you for reaching out to us.");
     event.preventDefault();
+
 
 });
 });

@@ -175,13 +175,13 @@ transform: translateX(-50%);
 color: white;
 background: #e91d43;
 padding: 10px 20px;
-font-size: 2em;
+font-size: 1em;
 font-weight: 600;
+border-radius: 4px;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: fantasy;
-  font: Jazz LET;
+  font-family: 'Playfair Display', serif;
   font-size: 1.2em;
 }
