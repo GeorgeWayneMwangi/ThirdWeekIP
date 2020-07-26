@@ -32,7 +32,7 @@ $(document).ready(function () {
   $("form#contacts").submit(function(event) {
 
     var names= $("#name").val();
-    var email= $("#email").val();
+    var email= $("#mce-email").val();
     var message = $("#YourMessage").val();
     alert("Dear " +names+",your message has been received. Thank you for reaching out to us");
     event.preventDefault();
